@@ -32,7 +32,7 @@ a {
 body {
   font-family: "Quicksand", sans-serif;
   color: #3b3950;
-  background: #6fc5ff;
+  background: #6fc5ff !important;
   font-weight: 500;
 }
 
