@@ -2051,3 +2051,16 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 80px;
   object-fit: cover;
 }
+
+/* dropdown menu */
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+ 
+.dropdown-toggle::after {
+   transition: transform 0.15s linear; 
+}
+ 
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
