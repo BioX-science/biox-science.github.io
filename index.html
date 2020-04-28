@@ -55,7 +55,7 @@
                         <a href="#case" class="nav-link">D-Biz Case</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#blog" class="nav-link">Blog</a>
+                        <!-- <a href="#blog" class="nav-link">Blog</a> -->
                     </li>
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact Us</a>
@@ -455,7 +455,7 @@
     </section>
     <!-- Case End -->
 
-    <div class="container">
+ <!--    <div class="container">
         <div class="carousel slide" data-ride="carousel" id="carousel-demo">
              <ol class="carousel-indicators">
                <li data-target="#carousel-demo" data-slide-to="0" class="active"></li>
@@ -481,7 +481,7 @@
            </div>
          </div>
      </div>
-
+ -->
     <!-- Contact Us Start -->
     <section class="section bg-light" id="contact">
         <div class="container">
@@ -503,47 +503,60 @@
                         <form action="https://send.pageclip.co/pQj7XjdHKTs0T43CEFRH5fALko34T542/d-biz" class="pageclip-form" method="post">
                                         
                               <!-- text field -->
-                              Name: 
-                              <input type="text" name="first_name" value="John" />
-                              <input type="text" name="last_name" value="Chan" />
+                              Name <br>
+                              First Name* <input type="text" name="first_name" placeholder="John" />
+                              Last Name* <input type="text" name="last_name" placeholder="Chan" />
                               <br>
-                              Email:
+                              <br>
+                              Email*:
                               <input type="email" name="email" value="" />
                               <br>
-                              Contact Number (Country Code/ Area Code + Your Number):
+                              <br>
+                              Contact Number (Area Code + Your Number):
                               <input type="text" name="number" value="" />
                               <br>
-                              Industry:
-                              <input type="text" name="Industry" value="" />
                               <br>
-                                <select name="heardFrom">
-                                    <option value="ph" selected>Product Hunt</option>
-                                    <option value="hn">Hacker News</option>
-                                </select>
+                              Company Name:
+                              <input type="text" name="company_name" value="" />
+                              <br>
 
-                                <!-- radio buttons -->
-                                <input type="radio" name="animal" value="tarantula" id="tarantula" checked/>
-                                <label htmlFor="tarantula">Tarantula</label>
-
-                                <input type="radio" name="animal" value="turtle" id="turtle"/>
-                                <label htmlFor="turtle">Turtle</label>
-
+    
+                                <br>
                                 <!-- checkboxes -->
+                                Technology solution interested?
                                 <br>
                                 <input type="checkbox" name="likes[ecommerce]" id="ecommerce" />
-                                <label htmlFor="ecommerce">Online Store/ Ecommerce 🍕</label>
+                                <label htmlFor="ecommerce">Online Store/ Ecommerce 🛒</label>
                                 <br>
                                 <input type="checkbox" name="likes[E-marketing]" id="pizza" />
-                                <label htmlFor="E-marketing">E-marketing 🍕</label>
+                                <label htmlFor="E-marketing">Digital marketing 📢</label>
                                 <br>
                                 <input type="checkbox" name="likes[delivery]" id="delivery" />
-                                <label htmlFor="delivery">Online order taking & delivery, smart self-service system 🍕</label>
+                                <label htmlFor="delivery">Online order taking & delivery, smart self-service system 🚚</label>
                                 <br>
                                 <input type="checkbox" name="likes[customer_service]" id="customer_service" />
-                                <label htmlFor="customer_service">Online customer services & engagement 🍕</label>
+                                <label htmlFor="customer_service">Online customer services & engagement 💬</label>
                                 <br>
                                 <input type="checkbox" name="likes[document]" id="document"/>
-                                <label htmlFor="document">Remote document management and cloud storage and remote access services 🍠</label>
+                                <label htmlFor="document">Remote document management, cloud storage & remote access services ☁️</label>
+                                <br>
+                                <input type="checkbox" name="likes[ecommerce]" id="ecommerce" />
+                                <label htmlFor="ecommerce">Digital customer experience enhancement</label>
+                                <br>
+                                <input type="checkbox" name="likes[E-marketing]" id="pizza" />
+                                <label htmlFor="E-marketing">Cloud based Financial management system</label>
+                                <br>
+                                <input type="checkbox" name="likes[delivery]" id="delivery" />
+                                <label htmlFor="delivery">Cloud based Human resources management system</label>
+                                <br>
+                                <input type="checkbox" name="likes[customer_service]" id="customer_service" />
+                                <label htmlFor="customer_service">Virtual meeting & conference tool</label>
+                                <br>
+                                <input type="checkbox" name="likes[document]" id="document"/>
+                                <label htmlFor="document">Cybersecurity</label>
+                                <br>
+                                <input type="checkbox" name="likes[document]" id="document"/>
+                                <label htmlFor="document">ERP</label>
                                 <br>
                                 <!-- hidden inputs -->
                                 <input type="hidden" name="version" value="v1" />
