@@ -97,6 +97,8 @@ const $dropdown = $(".dropdown");
 const $dropdownToggle = $(".dropdown-toggle");
 const $dropdownMenu = $(".dropdown-menu");
 const showClass = "show";
+
+
  
 $(window).on("load resize", function() {
   if (this.matchMedia("(min-width: 768px)").matches) {
