@@ -123,8 +123,13 @@
   --------------------------------------------------------------*/
   function stickyHeader() {
     var scroll = $(window).scrollTop();
-    if (scroll >= 10) {
-      $(".cs-sticky-header").addClass("cs-sticky-active");
+    // Only apply sticky header on desktop (>= 992px)
+    if ($(window).width() >= 992) {
+      if (scroll >= 10) {
+        $(".cs-sticky-header").addClass("cs-sticky-active");
+      } else {
+        $(".cs-sticky-header").removeClass("cs-sticky-active");
+      }
     } else {
       $(".cs-sticky-header").removeClass("cs-sticky-active");
     }
